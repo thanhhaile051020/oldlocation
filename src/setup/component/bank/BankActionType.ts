@@ -1,0 +1,9 @@
+export enum BankActionType {
+  GET_BANK_LIST = 'GET_BANK_LIST',
+  GET_BANK      = 'GET_BANK',
+  UPDATE_BANK   = 'UPDATE_BANK',
+  INSERT_BANK   = 'INSERT_BANK',
+  CHECK_BANK    = 'CHECK_BANK',
+  APPROVE_BANK  = 'APPROVE_BANK',
+  REJECT_BANK   = 'REJECT_BANK',
+}

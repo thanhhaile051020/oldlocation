@@ -1,0 +1,29 @@
+
+.btn-add {
+  color: #fff;
+  background-color: #2b3a42;
+  border-color: #28a745;
+}
+
+.btn-add:hover {
+  color:   #fff;
+  text-decoration: none;
+  border-color: #28a745;
+}
+
+.result .btn-group{
+  margin-bottom: 5px;
+}
+
+
+.content-category tr > td{
+  left: 0;
+  position: relative;
+}
+
+
+/*
+.content-category input[type=checkbox]:not(.modal-trigger):not(.toggle):not(#alert-check):not([id*=lightbox-]):after{
+  top: 12px;
+  left: 12px;
+}*/

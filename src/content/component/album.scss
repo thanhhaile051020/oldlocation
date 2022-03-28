@@ -1,0 +1,343 @@
+.view-images .gallery {
+  margin: 9px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+  height: 250px;
+}
+
+.view-images .gallery {
+  margin: 9px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+  height: 250px;
+}
+
+
+.view-images .gallery-card .card-image {
+  width: 200px;
+  height: 200px;
+}
+.view-images .gallery-card {
+  margin: 9px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+  height: 250px;
+}
+
+.view-images .gallery-card img{
+  width: 250px !important;
+  height: 150px !important;
+}
+
+.view-images .gallery:hover {
+  border: 1px solid white;
+}
+
+.view-images .gallery img {
+  /*  width: 100%;
+    height: auto;*/
+  width: 300px;
+  height: 200px;
+}
+
+.view-images .desc {
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: -6px;
+}
+
+.gallery .desc {
+  padding-top: 10px;
+}
+
+.image-large {
+  width: 250px !important;
+  height: 250px !important;
+}
+
+.card.small .card-image, .card.medium .card-image, .card.large .card-image {
+  max-height: 60%;
+  overflow: hidden
+}
+
+.card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
+  max-height: 40%
+}
+
+.card.horizontal .card-image img {
+  border-radius: 2px 0 0 2px;
+  max-width: 100%;
+  width: auto
+}
+
+.view-detail-images {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.grid-row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.grid-column {
+  flex: 25% 1;
+  max-width: 25%;
+  padding: 8px 20px;
+  padding-bottom: 40px;
+  margin-top: 10px;
+  margin-left: 15px;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+.gallery-card.grid-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery.grid-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  min-width: 250px;
+  min-height: 250px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .grid-column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .grid-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.btn-add {
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.btn-al {
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.btn-al-danger {
+  background-color: red;
+  color: white;
+}
+
+.btn-al-danger i {
+  font-size: 20px;
+}
+
+.album-container > button {
+  margin: 20px 20px;
+}
+
+.desc > span {
+  float: left;
+  margin-left: 75px;
+}
+
+.desc > .photo {
+  float: right;
+}
+
+._3etw {
+  left: 9px;
+  top: 9px;
+  width: 100%;
+  height: 100%;
+  z-index: -3 !important;
+}
+
+._3etu, ._3etw {
+  background: #fff;
+  border: solid 1px #dddfe2;
+  position: absolute;
+}
+
+._3etu {
+  left: 6px;
+  top: 6px;
+  width: 100%;
+  height: 100%;
+  z-index: -2 !important;
+}
+
+._3etu, ._3etw {
+  background: #fff;
+  border: solid 1px #dddfe2;
+  position: absolute;
+}
+
+#preview_images > .btn-next-right {
+  float: right;
+  background: black;
+  color: white;
+  margin-top: 24vw;
+  margin-left: -8vw;
+  position: absolute;
+}
+
+#preview_images > .btn-prev-left {
+  float: left;
+  background: black;
+  color: white;
+  margin-top: 24vw;
+  margin-left: 3vw;
+  position: absolute;
+}
+
+#preview_images > .btn-close-right {
+  float: right;
+  background: black;
+  color: white;
+  margin-top: 1vw;
+  margin-right: 1vw;
+  position: absolute;
+}
+
+#preview_images {
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(46, 41, 41, 0.98);
+  z-index: 5000;
+}
+
+figure {
+  width: 100%;
+  float: left;
+  margin: 2vw;
+  text-align: center;
+  padding: 0;
+}
+
+figure img {
+  margin: 30px;
+  width: 90%;
+  height: auto;
+}
+
+/* check box */
+
+.lb-checkBox {
+  margin: -12px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.lb-checkBox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.lb-checkBox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.lb-checkBox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.lb-checkBox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.lb-checkBox .checkmark:after {
+  left: 10px;
+  top: 6px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+

@@ -1,0 +1,16 @@
+.radio-group > .radio-container input[type=radio]:before{
+ left: 2px;
+}
+
+.radio-group > .radio-container:nth-child(2){
+   margin-left: 15px;
+ }
+
+.article > form{
+ max-height: 94vh;
+}
+
+.lb-text-editor{
+  height: auto !important;
+  min-height: 300px !important;
+}
